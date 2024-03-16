@@ -28,6 +28,7 @@ def home():
 
 if __name__ == '__main__':
     dbname = get_database()
+    print("Started the scheduler")
     scheduler.start()  # Start the scheduler
     try:
         app.run(use_reloader=False)  # Prevents the scheduler from being started twice in debug mode
