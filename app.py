@@ -23,6 +23,11 @@ scheduler = BackgroundScheduler(daemon=True)
 # Schedule the `check_google_sheets` function to run periodically
 scheduler.add_job(process_data, 'interval', seconds=6, max_instances=2) 
 
+dbname = get_database()
+print("Started the scheduler")
+sys.stdout.flush()
+scheduler.start()
+
 @app.route('/')
 def home():
     return "Hello, Flask with MongoDB!"
