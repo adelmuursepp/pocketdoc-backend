@@ -38,10 +38,7 @@ if __name__ == '__main__':
     dbname = get_database()
     print("Started the scheduler")
     sys.stdout.flush()
-    if scheduler.running:
-        scheduler.shutdown()
-    if not scheduler.running:
-        scheduler.start()
+    scheduler.start()
     sys.stdout.flush()
     try:
         app.run(use_reloader=False)  # Prevents the scheduler from being started twice in debug mode
