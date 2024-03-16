@@ -16,6 +16,7 @@ def process_data():
     transcript_collection = dbname["transcript"]
     db_transcripts = list(transcript_collection.find())
     if len(db_transcripts) == 0:
+        print('db transcripts is 0', db_trans)
         transcript_collection.insert_one({"time": time, "summary": summary})
     else:
         db_time = db_transcripts[0]["time"] # There should only be one transcript in array
