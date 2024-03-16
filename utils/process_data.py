@@ -1,6 +1,7 @@
 from google_sheets import read_google_sheet
 from utils.get_database import get_database
 from utils.fetch_recommendation import fetch_recommendation
+import sys
 
 def process_data():
     res = read_google_sheet()
