@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 load_dotenv()
 
 # Google sheets API setup
-SERVICE_ACCOUNT_FILE = 'hacktheglobe24-b916c1161289.json'
+SERVICE_ACCOUNT_FILE = 'hacktheglobe24-c47f7ecaaecd.json'
 SHEET_ID=os.environ['SHEET_ID']
 RANGE_NAME = 'Sheet1!A1:E100'
 
