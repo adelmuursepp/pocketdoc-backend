@@ -1,14 +1,14 @@
 from dotenv import load_dotenv
 from flask import Flask, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
-from google_sheets import read_google_sheet
 from utils.process_data import process_data
 from utils.get_database import get_database
 from routes.recommended_actions_route import recommended_actions_route
+from routes.admin_summary_route import admin_summary_route
+
 from flask_cors import CORS
 import sys
 
-from utils.fetch_recommendation import fetch_recommendation
 
 load_dotenv()
 
@@ -17,6 +17,7 @@ CORS(app)
 app.app_context().push()
 
 app.register_blueprint(recommended_actions_route)
+app.register_blueprint(admin_summary_route)
 
 scheduler = BackgroundScheduler(daemon=True)
 
