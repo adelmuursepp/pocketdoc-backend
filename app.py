@@ -29,7 +29,11 @@ def home():
 
 if __name__ == '__main__':
     dbname = get_database()
+    print("STARTED SCHEDULER")
+    sys.stdout.flush()
     scheduler.start()  # Start the scheduler
+    print("STARTED SCHEDULER")
+    sys.stdout.flush()
     try:
         app.run(use_reloader=False)  # Prevents the scheduler from being started twice in debug mode
     except (KeyboardInterrupt, SystemExit):

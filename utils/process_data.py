@@ -3,6 +3,7 @@ from utils.get_database import get_database
 from utils.fetch_recommendation import fetch_recommendation
 from utils.fetch_urgency import fetch_urgency
 from utils.save_admin_summary import save_admin_summary
+import sys
 
 def process_data():
     res = read_google_sheet()
@@ -22,15 +23,19 @@ def process_data():
             transcript_collection.delete_many({})
             transcript_collection.insert_one({"time": time, "summary": summary})
             print("DELETED AND UPDATED")
-
+            sys.stdout.flush()
+            
             recommendation_collection = dbname["recommendation"]
             recommendation_collection.delete_many({})
             recommendation_string = fetch_recommendation(summary)
             recommendation_collection.insert_one({"recc": recommendation_string})
             print("RECOMMENDATION UPDATED")
+            sys.stdout.flush()
 
             urgency = fetch_urgency(summary)
             save_admin_summary(name, time, urgency, summary)
             print("URGENCY UPDATED")
+            sys.stdout.flush()
         else:
             print("NO UPDATES")
+            sys.stdout.flush()
