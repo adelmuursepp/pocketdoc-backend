@@ -9,3 +9,4 @@ APScheduler
 mistralai
 flask-cors
 openai
+gunicorn
