@@ -25,5 +25,7 @@ def process_data():
             recommendation_string = fetch_recommendation(summary)
             recommendation_collection.insert_one({"recc": recommendation_string})
             print("RECOMMENDATION UPDATED")
+            sys.stdout.flush()
         else:
             print("NO UPDATES")
+            sys.stdout.flush()

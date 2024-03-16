@@ -6,6 +6,7 @@ from utils.process_data import process_data
 from utils.get_database import get_database
 from routes.recommended_actions_route import recommended_actions_route
 from flask_cors import CORS
+import sys
 
 from utils.fetch_recommendation import fetch_recommendation
 
@@ -29,7 +30,9 @@ def home():
 if __name__ == '__main__':
     dbname = get_database()
     print("Started the scheduler")
+    sys.stdout.flush()
     scheduler.start()  # Start the scheduler
+    sys.stdout.flush()
     try:
         app.run(use_reloader=False)  # Prevents the scheduler from being started twice in debug mode
     except (KeyboardInterrupt, SystemExit):
