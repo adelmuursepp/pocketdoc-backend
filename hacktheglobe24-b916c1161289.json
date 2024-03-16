@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hacktheglobe24",
+  "private_key_id": "b916c1161289b6607e290ce1188bbfe34539bbda",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDfem9XW5hb2ZIO\nYwFn+JIxatUYpVjeENmeP3kYVKsY7AVqbqI7LR9eapg5DrYVgK0I4JgPPJA5k+tl\nv6fx6eh8E3CB9oLX4MqVsTD5qaX8JE7HOElDJU4jLCF3FKnqkmUzQ3RgJdXNM4GO\nOcehlwtMHueYfdDQBEbrAeP0k1busZp/+9hfi4I84vltS70WZBgMSPKlQ0q9b5Vf\nGzfqs/W/Y0iwG+/2UaiUiQfpnVwBwdpX4xycPcVM1xla4Iaiuj0P56YTLD2LcPLX\nVz9UPpXcYD8izBW4aoEwjRkYVMOyDIPZ0d1wkcDpu1X0d5VnPOlme3mk/W4WOHJ2\nridyqOcRAgMBAAECggEAI+EqYyInkgeadYjbvu+fuSNn1y8k13JpHgkezhM57SRn\nsjDVBx81fBktG2wLO+SO42/7ueaFWVkwYAOnWSWu18zfMV58n2BN5j6umEbuiU7i\n/wVAbfFdXDRHozDEHw8mBFb+Jjms2+c7E7SfIoh3nd8QW+FHVz54jF6fVLMbL/My\n6UV/ph12wGJ+RftiMx317ao6aX2P/Oklwvcyx/VoEZZILYsmjM3q8uMclZmWkU0J\naD8R3UfTLwHlgnJw8t6UGu1a1VnzRWFN89ZYTS+BHqyFNmokGxJGdnnegWFqqknd\nffyVrl+m/kFRPR0cjEar07X9osWhhGBe1uEFx2TfYQKBgQD8uQSjZZOHG+/a6kO/\nkj1peaDKSIezdsjswcBm5RcTu7EpftF464dqBstOtHlDoosyAc8Mq4OW750+zOxx\nX+XPRDHSqcxogC4f8b935f+TCXHWTupic27Et53tiBPDLUkpY/tMMucm1kXLkZmp\nO3ACCLQY68J9MLlZcFLBGXdLBQKBgQDiYFTzyBCt3EKdEJdjAjmiRWGM2hTYkO1Y\nXyTb2E5L39Mq7ICGILlp/MgZ1DTID7Z4U4lUfmJKOd9h3pWNLQqpOLjAUdo+2NXX\nfeQr+TlDAIjPbcKYCf+LA/8O31QG5nWZn+DkLsrtbslL8esqkWvfkkmPIGg8g4v2\niw5a5zdhnQKBgQDQFl+1UovYsa4bKM1Dzdv3Hwi/xlzF7kaeeyI7FuKbgu3q5tr/\nn59OM+3vDjbS8+F8+XRMUGT3QLDO5tjAuV91/AayGNGQMgrIjrtCtARuQ1aSSURA\ncB+CplXJIUR0brNQ+1wNb9RYbBHn/ijx6Vjes9/mrSjk/9t9wzjAeoF5KQKBgQDd\n3JelzMA8BRDsKmSUTov5s5Hln56qmW9kGute42HpDtZAzUUxL0VI0Mu0NLv+DxhA\nWW7QdoUSRiHeI23izPAT5Vl8czw4N/9skR9c0YcDWbS7xtDefX4L2sDQ7KPHl3pO\nM9kPCaUsilWSruhR8fANT6v0MEi4dhxoZuSMxusKKQKBgQDo/bj4jslNOjKszCCZ\nZ1zZCufyUaaoTbStdgSxSrbv3wG5TQJ4+BlDeim67ugdDIkfu9dtmkWl64okPIes\nwMRQWxlZoa/Hm7GTzGb+rWywyEs2b1c4bs/y0aiXHXtu+uNowFOSr7gDVVh6+ql7\nlNKJYHIsQpUmvyRWOrpmeAyFeA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "adel-s-account@hacktheglobe24.iam.gserviceaccount.com",
+  "client_id": "101265698226862292879",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adel-s-account%40hacktheglobe24.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
