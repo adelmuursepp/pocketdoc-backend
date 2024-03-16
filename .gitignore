@@ -1,0 +1,5 @@
+env
+.env
+__pycache__/
+notes_adel.md
+hacktheglobe24-b916c1161289.json
